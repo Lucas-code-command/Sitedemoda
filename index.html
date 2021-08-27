@@ -24,7 +24,12 @@
     <script>
         function show_image(src) {
             var Image_Id = document.getElementById('tela');
-            Image_Id.src = "foto1.jpg";
+            if (Image_Id.src.match("foto1.jpg")) {
+                Image_Id.src = "foto2.jpg";
+            }
+            else {
+                Image_Id.src = "foto1.jpg";
+            }
         }
         function func2(){
             document.getElementById("tela").innerHTML = "bora";
