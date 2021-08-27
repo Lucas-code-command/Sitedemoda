@@ -9,7 +9,9 @@ button{
     padding: 5%;
 }
 
-
+.semi1{
+    border: 1px solid black;
+}
 
 .semi2{
     display: flex;
