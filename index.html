@@ -6,15 +6,15 @@
 
     <nav class="menu">
         <div class="tecido">
-            <h3>Tecido ></h3>
+            <h3><a href="index.html">Tecido</a></h3>
         </div>
-        <h3>Corte ></h3>
-        <h3>Lavagem ></h3>
-        <h3>Detalhes ></h3>
+        <h3><a href="corte.html">Corte</a></h3>
+        <h3><a href="lavagem.html">Lavagem</a></h3>
+        <h3><a href="detalhe.html">Detalhes</a></h3>
     </nav>
 
     <div class="options">
-        <h2> Tecido :</h2>
+        <h2> Tecido</h2>
         <div class = "produto1">
             <!--<img src="foto1.jpg" onclick="show_image1()" class="im1">-->
             <div class="grupo1">
@@ -37,11 +37,25 @@
     </div>
 
     <div class = "display">
-        <img src = "foto_default.jpg" id= "tela">
-        <img src="foto_default.jpg" id="tela">
-        <img src="foto_default.jpg">
-        <img src="foto_default.jpg">
-        <img src="foto_default.jpg">
+        <div class= front_back>
+            <img src = "foto_default.jpg" id= "tela">
+            <p class="titulo_display">Front</p>
+            <img src="foto_default.jpg" id="back">
+            <p class="titulo_display">Back</p>
+        </div>
+        
+        <div class= "bolso_lado">
+            <img src="foto_default.jpg"id="bolso">
+            <p class="titulo_display">Bolso<p>
+            <img src="foto_default.jpg" id="lado">
+            <p class="titulo_display">Lado</p>
+        </div>
+
+        <div class="total">
+            <img src="foto_default.jpg"id = "total">
+            <p class="titulo_total">Tudo </p>
+        </div>
+       
     </div>
 
 

@@ -4,23 +4,19 @@ body {
     background-color: black;
     margin:0;
 }
-
-h1{
-    margin-left: 100px;
-}
-
-img{
-    height: 80px;
-    width: 80px;
-    display:block;
-}
-
+/*nav*/
 .menu{
     padding:1%;
 }
 .tecido{
     color:greenyellow;
 }
+a{
+    color:aqua;
+}
+
+/* options*/
+
 
 .options{
     color:black;
@@ -30,16 +26,70 @@ img{
     padding-bottom: 5%;
 }
 
+img{
+    height: 80px;
+    width: 80px;
+    display:block;
+}
 
 
 
 /*Display*/
 .display{
-    padding: 5px;
-    margin-left: 30%;
-    height: 400px;
-    width:400px;
+    display:flex;
+}
+.titulo_display{
+    border:1px  solid wite;
+    width: 210%;
+    text-align: center;
+}
+.titulo_total{
+    border:1px  solid wite;
+    width: 50%;
+    text-align: center;
+    margin-left: 40%;
+}
+.front_back{
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-bottom: 13%;
+    margin-top: 10%;
 }
 
+.bolso_lado{
+    margin-top:10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 13%;
+}
+
+
+/* entre eles*/
+#tela{
+    margin:10%;
+    width: 200%;
+    height: 50%;
+}
+#back{
+    margin:10%;
+    width: 200%;
+    height: 50%;
+}
+#bolso{
+    margin:10%;
+    width: 200%;
+    height: 50%;
+}
+#lado{
+    margin:10%;
+    width: 200%;
+    height: 50%;
+}
+#total{
+    margin-left:40%;
+    margin-top: 33%;
+    width: 50%;
+    height: 75%;
+}
 
 
