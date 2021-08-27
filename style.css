@@ -3,27 +3,36 @@ body {
     background-color: aquamarine;
 }
 
-p{
-    border: 1px blue solid;
-    margin : 30%;
-    padding: 20%;
-}
 
 .semi1{
     display: flex;
+    margin: 5%;
 }
 
 .semi2{
     display: flex;
+    margin: 5%;
 }
 
-.display{
-    margin-left: auto;
-    border: 1px black solid;
-    padding: 10%;
+
+#tela{
+    border: 1px solid black;
+    padding: 5px;
 }
 
-img {
-    width:150px;
-    height: 150px;
+.quadrado1 {
+    height: 10%;
+}
+
+.im1{
+    margin:5%;
+}
+.im2{
+    margin:5%;
+}
+.im3{
+    margin:5%;
+}
+.im4{
+    margin:5%;
 }
