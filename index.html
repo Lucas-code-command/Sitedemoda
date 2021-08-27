@@ -5,7 +5,7 @@
 <body>
     <div class="quadrado1">
         <div class = "semi1">
-            <p onclick="func1()">clica</p>
+            <p onclick="show_image(foto1.jpg)">clica</p>
             <img src="foto1.jpg" onclick="func1()">
             <p onclick="func2()">ai </p>
         </div>
@@ -22,8 +22,10 @@
     </div>
 
     <script>
-        function func1(){
-            document.getElementById("tela").innerHTML = src="foto1.jpg";
+        function show_image(src) {
+            var img = document.createElement("img");
+            img.src = src;
+            document.body.appendChild(img);
         }
         function func2(){
             document.getElementById("tela").innerHTML = "bora";
