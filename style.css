@@ -3,27 +3,20 @@ body {
     background-color: aquamarine;
 }
 
-
+/* quadrado 1*/
+.quadrado1 {
+    height: 10%;
+}
 .semi1{
     display: flex;
-    margin: 5%;
 }
 
 .semi2{
     display: flex;
-    margin: 5%;
 }
 
 
-#tela{
-    border: 1px solid black;
-    padding: 5px;
-}
-
-.quadrado1 {
-    height: 10%;
-}
-
+/*Margem de cada item */
 .im1{
     margin:5%;
 }
@@ -36,3 +29,14 @@ body {
 .im4{
     margin:5%;
 }
+
+/*Display*/
+#tela{
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 30%;
+    margin-top:30%;
+}
+
+
+
