@@ -20,4 +20,5 @@ button{
 .display{
     margin-left: auto;
     border: 1px black solid;
+    padding: 10%;
 }
