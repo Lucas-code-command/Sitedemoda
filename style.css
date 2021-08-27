@@ -16,3 +16,7 @@ button{
 .semi2{
     display: flex;
 }
+
+.display{
+    display:inherit;
+}
