@@ -8,7 +8,11 @@ body {
     padding: 60%;
     border: 1px blue solid;
 }
-
+button {
+    margin: 50%;
+    padding: 60%;
+    border: 1px blue solid;
+}
 .semi1{
     display: flex;
 }
