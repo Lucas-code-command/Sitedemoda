@@ -5,8 +5,8 @@
 <body>
     <div class="quadrado1">
         <div class = "semi1">
-            <img src="foto1.jpg" onclick="show_image()">
-            <p onclick="func2()">ai </p>
+            <img src="foto1.jpg" onclick="show_image1()">
+            <img src= "foto2.jpg">
         </div>
         
         <div class = "semi2">
@@ -17,27 +17,18 @@
     </div>
 
     <div class = "display">
-        <img src = "foto1.jpg" id= "tela"> 
+        <img src = "foto_default.jpg" id= "tela"> 
     </div>
 
     <script>
-        function show_image(src) {
+        function show_image1(src) {
             var Image_Id = document.getElementById('tela');
-            if (Image_Id.src.match("foto1.jpg")) {
-                Image_Id.src = "foto2.jpg";
-            }
-            else {
+            if (Image_Id.src.match("foto1.jpg" || "foto2.jpg" || "foto3.jpg" || "foto4.jpg" || "foto_default.jpg")) {
                 Image_Id.src = "foto1.jpg";
             }
-        }
-        function func2(){
-            document.getElementById("tela").innerHTML = "bora";
-        }
-        function func3(){
-            document.getElementById("tela").innerHTML = "uhhul";
-        }
-        function func4(){
-            document.getElementById("tela").innerHTML = "opa";
+            else {
+                Image_Id.src = "foto_default.jpg";
+            }
         }
     </script>
 
