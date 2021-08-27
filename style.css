@@ -10,7 +10,7 @@ p{
 }
 
 .semi1{
-    border: 10px solid black;
+    display: flex;
 }
 
 .semi2{
