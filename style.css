@@ -1,41 +1,44 @@
 body {
-    display : flex;
-    background-color: aquamarine;
-}
-
-/* quadrado 1*/
-.quadrado1 {
-    height: 10%;
-}
-.semi1{
     display: flex;
+    color:white;
+    background-color: black;
+    margin:0;
 }
 
-.semi2{
-    display: flex;
+h1{
+    margin-left: 100px;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+    display:block;
+}
+
+.menu{
+    padding:1%;
+}
+.tecido{
+    color:greenyellow;
+}
+
+.options{
+    color:black;
+    background-color: white;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 
-/*Margem de cada item */
-.im1{
-    margin:5%;
-}
-.im2{
-    margin:5%;
-}
-.im3{
-    margin:5%;
-}
-.im4{
-    margin:5%;
-}
+
 
 /*Display*/
-#tela{
-    border: 1px solid black;
+.display{
     padding: 5px;
     margin-left: 30%;
-    margin-top:30%;
+    height: 400px;
+    width:400px;
 }
 
 

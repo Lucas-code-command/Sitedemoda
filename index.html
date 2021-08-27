@@ -3,22 +3,48 @@
 </head>
 
 <body>
-    <div class="quadrado1">
-        <div class = "semi1">
-            <img src="foto1.jpg" onclick="show_image1()" class="im1">
-            <img src= "foto2.jpg" onclick="show_image2()" class="im2">
-        </div>
-        
-        <div class = "semi2">
-            <img src="foto3.jpg" onclick="show_image3()" class="im3">
-            <img src="foto4.jpg" onclick="show_image4()" class="im4">
-        </div>
 
+    <nav class="menu">
+        <div class="tecido">
+            <h3>Tecido ></h3>
+        </div>
+        <h3>Corte ></h3>
+        <h3>Lavagem ></h3>
+        <h3>Detalhes ></h3>
+    </nav>
+
+    <div class="options">
+        <h2> Tecido :</h2>
+        <div class = "produto1">
+            <!--<img src="foto1.jpg" onclick="show_image1()" class="im1">-->
+            <div class="grupo1">
+                <img src="foto1.jpg">
+                <p>legenda aqui</p>
+            </div>
+            <div class="grupo2">
+                <img src="foto1.jpg">
+                <p>legenda aqui</p> 
+            </div>
+            <div class="grupo3"> 
+                <img src="foto2.jpg">
+                <p>legeda aqui!</p>
+            </div>
+            <div class="grupo4">
+                <img src="foto4.jpg">
+                <p>Legenda aqui</p>
+            </div>
+        </div>
     </div>
 
     <div class = "display">
-        <img src = "foto_default.jpg" id= "tela"> 
+        <img src = "foto_default.jpg" id= "tela">
+        <img src="foto_default.jpg" id="tela">
+        <img src="foto_default.jpg">
+        <img src="foto_default.jpg">
+        <img src="foto_default.jpg">
     </div>
+
+
 
 <!--  ----------------Script------------------- -->
     <script>
@@ -27,33 +53,6 @@
             if (Image_Id.src.match("foto_default.jpg")) {
                 Image_Id.src = "foto1.jpg";
             }else {
-                Image_Id.src = "foto_default.jpg";
-            }
-        }
-
-        function show_image2(src){
-            var Image_Id = document.getElementById('tela');
-            if (Image_Id.src.match("foto_default.jpg")) {
-                Image_Id.src = "foto2.jpg";
-            } else {
-                Image_Id.src = "foto_default.jpg";
-            }
-        }
-
-        function show_image3(src){
-            var Image_Id = document.getElementById('tela');
-            if (Image_Id.src.match("foto_default.jpg")) {
-                Image_Id.src = "foto3.jpg";
-            } else {
-                Image_Id.src = "foto_default.jpg";
-            }
-        }
-
-        function show_image4(src){
-            var Image_Id = document.getElementById('tela');
-            if (Image_Id.src.match("foto_default.jpg")) {
-                Image_Id.src = "foto4.jpg";
-            } else {
                 Image_Id.src = "foto_default.jpg";
             }
         }
