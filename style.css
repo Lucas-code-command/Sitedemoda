@@ -5,6 +5,8 @@ body {
 
 .button{
     border: 1px blue solid;
+    margin : 10%;
+    padding: 5%;
 }
 
 .semi1{
