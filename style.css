@@ -1,0 +1,16 @@
+body {
+    display : flex;
+}
+
+.quadrado1{
+    margin: 40%;
+    padding: 30%;
+}
+
+.semi1{
+    display: flex;
+}
+
+.semi2{
+    display: flex;
+}
