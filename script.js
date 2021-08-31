@@ -60,7 +60,7 @@ function show_image2(src){
     }
 
     var Image_Id_3 = document.getElementById('lado');
-    if (Image_Id_3.src.match("fotos/foto_default.jpg") ||Image_Id_1.src.match("fotos/foto1.jpg") ||Image_Id_3.src.match("fotos/foto4.jpg") || Image_Id_3.src.match("fotos/foto3.jpg")) {
+    if (Image_Id_3.src.match("fotos/foto_default.jpg") ||Image_Id_3.src.match("fotos/foto1.jpg") ||Image_Id_3.src.match("fotos/foto4.jpg") || Image_Id_3.src.match("fotos/foto3.jpg")) {
         Image_Id_3.src = "fotos/foto2.jpg";
     }else {
         Image_Id_3.src = "fotos/foto_default.jpg";
