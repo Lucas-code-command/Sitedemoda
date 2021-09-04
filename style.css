@@ -3,6 +3,7 @@ body {
     color:white;
     background-color: black;
     margin:0;
+    width: 100%;
 }
 /*nav*/
 .menu{
