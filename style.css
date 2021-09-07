@@ -10,8 +10,12 @@ body {
     padding:1%;
 }
 
-.menu:hover{
+h3:hover{
     background-color: white;
+    color: black;
+    padding-left: 5%;
+    margin-right: 0;
+    margin-left:0;
 }
 
 .tecido{
