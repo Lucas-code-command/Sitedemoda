@@ -9,6 +9,11 @@ body {
 .menu{
     padding:1%;
 }
+
+.menu:hover{
+    background-color: white;
+}
+
 .tecido{
     color:greenyellow;
 }
