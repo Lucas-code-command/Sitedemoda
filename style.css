@@ -108,4 +108,8 @@ img{
     body{
         background-color: blue;
     }
+
+    .menu{
+        display:inline-block;
+    }
 }
