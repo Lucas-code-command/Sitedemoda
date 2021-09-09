@@ -109,11 +109,14 @@
 
 @media screen and (max-width:480px){
     body{
-        background-color: blue;
-        display:none;
+        background-color: black;
+        display:unset;
     }
 
     .menu{
-        display:inline-block;
+        display:inline-flexbox;
+        margin:inherit;
+        text-align: center;
     }
+
 }
