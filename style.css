@@ -6,11 +6,7 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width:800px) and (max-width:1024px){
-    body{
-        background-color: blue;
-    }
-}
+
 /*nav*/
 .menu{
     padding:1%;
@@ -104,4 +100,12 @@ img{
     height: 75%;
 }
 
+/*Mobile version*/
 
+/*display : block, making it a block level element which takes the whole width of its container*/
+
+@media screen and (max-width:480px){
+    body{
+        background-color: blue;
+    }
+}
