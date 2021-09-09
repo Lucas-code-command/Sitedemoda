@@ -107,16 +107,21 @@
 
 /*display : block, making it a block level element which takes the whole width of its container*/
 
-@media screen and (max-width:480px){
+@media screen and (max-width:1040px){
     body{
         background-color: black;
-        display:unset;
+        width: 100%;
     }
 
     .menu{
         display:inline-flexbox;
-        margin:inherit;
+        margin-bottom:100%;
         text-align: center;
+        height:inherit;
     }
 
+    .display{
+        display:unset;
+        width:25%;
+    }
 }
