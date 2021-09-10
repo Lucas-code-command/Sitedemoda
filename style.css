@@ -107,7 +107,7 @@
 
 /*display : block, making it a block level element which takes the whole width of its container*/
 
-@media screen and (max-width:1040px){
+@media screen and (max-width:480px){
     body{
         background-color: black;
         width: 100%;
